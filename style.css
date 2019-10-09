@@ -1,0 +1,214 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 1920px;
+	margin: 0 auto;
+}
+img{
+	width: 100%;
+}
+h1{
+	color: #2b2a29;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial;
+}
+.menu1{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	list-style-type:none;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	padding: 10px 0 0 0;
+}
+.navigationLinks {
+	width: 46%;
+}
+.navigationLinks ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	list-style-type:none;
+	justify-content: space-around;
+	align-items: center;
+}
+.navigationLinks ul a{
+	color: #2b2a29;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: 600;
+	font-family: Arial;
+}
+.navigationLinks ul a:hover{
+	color: #ff003d;
+}
+.mainImage{	
+	width: 100%;
+}
+.container {
+     max-width: 1720px !important;
+}
+
+.navbar {
+    height: 90px;
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #2b2a29;
+    border-bottom: 5px solid #00bac9;
+    border-top: 5px solid #00bac9;
+}
+.mb-3, .my-3 {
+    margin-bottom: 0rem!important;
+}
+.nav-pills .nav-link {
+    border-radius: 0rem;
+}
+.nav-link{
+	font-size: 25px;
+	font-weight: 600;
+    width: 10.5rem;
+    text-align: center;
+    color: #02bac6;
+}
+.nav-link:hover{
+	color: #fff;
+}
+.nav-item{
+	padding-right:  13.5rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 13.5rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #2b2a29;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+.btn-outline-success:hover,.btn-outline-success:active {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #00bac9;
+}
+.btn-outline-success {
+    color: #00bac9;
+    border-color: #00bac9;
+}
+.mainContent{
+	  background-color: #2b2a29!important;
+}
+.dropdown-menu {
+ border-radius: 0rem;
+ background-color: #00bac9;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #343a40;
+    background-color: #00bac9;
+    width: 10.5rem;
+    text-align: center;
+}
+.form-control {
+
+    color: #343a40;
+    background-color: #2b2a29;
+
+    border: 1px solid #343a40;
+
+}
+.form-control:focus {
+	color: #ffffff;
+    background-color: #343a40;
+    border-color: #00bac9;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: none;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    border-color: #00bac9;
+}
+.tab-content{
+	min-height: 550px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     margin-right: 0px; 
+     margin-left: 0px; 
+    width: 70%;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+.info{
+	width: 500px;
+    color: white;
+}
+.l{
+    padding: 0 0.7rem 0.7rem 0;
+    width: 230px;
+}
+.allItem .col-3 a:hover{
+	background-image: url(images/item/hover-item.png);
+	background-size: cover; 
+}
+.item{
+	position: relative;
+}
+.itemsHover{
+	position: absolute;
+    top: 0;
+    left: 18px;
+    background-color: #ce1d4791;
+    width: 88%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+
+}
+.itemsHover i{
+    font-size: 6rem;
+    color: white;
+    padding: 56% 32%;
+}
+.item:hover .itemsHover {
+    opacity: 1;
+}
+.itemsHover2 i {
+	font-size: 6rem;
+    color: white;
+    padding: 25% 41.5%;
+}
+.itemsHover2{
+	position: absolute;
+    top: 0;
+    left: 14px;
+    background-color: #ce1d4791;
+    width: 95.5%;
+    height: 90%;
+    opacity: 0;
+    transition: 1s;
+}
